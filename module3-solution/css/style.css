@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.rootCard {
+    padding: 10px;
+    margin: 10px
+}
+
+.header {
+    text-align: center;
+}
+
+.cell {
+    border: 1px solid black;
+    margin: 10px;
+    background-color: #999;
+    display: inline-block;
+    width: calc(33% - 20px)
+}
+
+.row {
+    display: table
+}
+
+.head {
+    text-align: center;
+    margin: auto;
+    width: 110px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.content {
+    clear: both;
+    padding: 10px;
+}
+.navbar-toggle{
+    margin:20px;
+    padding:15px
+}
+
+
+
+
+
+
+
+@media (min-width:992px) {}
+
+@media (min-width:768px) and (max-width:991px) {
+
+    .cell-num-2,
+    .cell-num-1 {
+        width: calc(50% - 20px)
+    }
+
+    .cell-num-3 {
+        width: calc(100% - 20px)
+    }
+}
+
+@media (max-width:767px) {
+    .cell {
+        width: calc(100% - 20px)
+    }
+
+    .container {
+        padding: 10px 30px;
+    }
+}
