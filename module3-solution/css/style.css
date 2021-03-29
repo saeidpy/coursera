@@ -45,6 +45,9 @@ body {
     margin:20px;
     padding:15px
 }
+.navbar-brand{
+    height: auto
+}
 
 
 
